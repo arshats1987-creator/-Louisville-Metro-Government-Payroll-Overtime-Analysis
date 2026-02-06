@@ -55,11 +55,52 @@ Employee compensation is strongly influenced by **departmental structure, job ro
 ---
 
 ### 4. Annual Salary vs Overtime Shows a Weak Relationship  
-- Employees with lower base salaries often receive hig
+- Employees with lower base salaries often receive higher overtime  
+- High-salary employees tend to receive less overtime compensation  
 
+📌 **Takeaway:** Overtime contributes more to earnings for mid-to-lower salary employees.
 
+---
 
+### 5. Outliers Strongly Impact Payroll Spending  
+- Extremely high values in `Annual_Rate`, `Overtime_Rate`, and `YTD_Total` were observed  
+- These may represent executive roles, specialized jobs, or exceptional overtime workloads  
 
+📌 **Takeaway:** Outlier investigation is essential for accurate budgeting and compliance.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python 3.9+ – Data analysis  
+- Pandas – Cleaning and manipulation  
+- Matplotlib – Visualizations  
+- Jupyter Notebook – Reporting and insights  
+
+---
+
+## 🎯 Top Recommendations
+
+✅ Monitor departments with consistently high overtime for staffing improvements  
+✅ Review extreme salary and overtime outliers for auditing and transparency  
+✅ Perform deeper job-title-based compensation analysis  
+✅ Use predictive modeling to forecast overtime and payroll budgets  
+✅ Optimize workforce allocation to reduce overtime dependency  
+
+---
+
+## 📊 Dataset Information
+
+- **Source:** Louisville Metro KY Employee Salary Data  
+- **Size:** 40,816 payroll records  
+- **Features (11):** Department, Job Title, Annual Rate, Regular Rate, Overtime Rate, Incentives, YTD Total  
+- **Time Period:** Calendar year-based payroll snapshot (`CalYear`)  
+
+---
+
+## ⭐ Final Summary
+
+This project successfully identified key salary structures, overtime concentration, departmental payroll variation, and compensation outliers within Louisville Metro’s workforce. These findings support improved workforce planning, payroll transparency, and cost optimization strategies
 
 
 
