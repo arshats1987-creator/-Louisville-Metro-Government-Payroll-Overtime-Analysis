@@ -92,7 +92,7 @@ Employee compensation is strongly influenced by **departmental structure, job ro
 ## 📊 Dataset Information
 
 - **Source:** Louisville Metro KY Employee Salary Data  
-- **Size:** 40,816 payroll records  
+- **Size:** 40,829 payroll records  
 - **Features (11):** Department, Job Title, Annual Rate, Regular Rate, Overtime Rate, Incentives, YTD Total  
 - **Time Period:** Calendar year-based payroll snapshot (`CalYear`)  
 
